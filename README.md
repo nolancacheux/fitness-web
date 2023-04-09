@@ -33,12 +33,12 @@ Pour utiliser ce projet, vous devez avoir les logiciels suivants installés sur v
 ## Configuration
 
 1. Accédez au fichier `fitness-web/inc/init.inc.php` et modifiez les informations de connexion à la base de données si nécessaire :
-
-- `$hostname= 'localhost'; //nom du serveur (localhost)`
- `$username='root';//nom d'utilisateur pour accéder au serveur (root)`
-`$password='root'; //mot de passe pour accéder au serveur (root)`
-`$dbname='site'; //nom de la base de données`
-
+```
+$ $hostname= 'localhost'; //nom du serveur (localhost)`
+$ $username='root';//nom d'utilisateur pour accéder au serveur (root)`
+$ $password='root'; //mot de passe pour accéder au serveur (root)`
+$ $dbname='site'; //nom de la base de données`
+```
 
 Vérifiez que la constante RACINE_SITE est correctement définie pour correspondre au chemin de votre projet sur votre serveur web :
 
