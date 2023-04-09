@@ -42,7 +42,9 @@ $ $dbname='site'; //nom de la base de données`
 
 Vérifiez que la constante RACINE_SITE est correctement définie pour correspondre au chemin de votre projet sur votre serveur web :
 
--`define("RACINE_SITE","/site/");`
+```
+$define("RACINE_SITE","/site/");
+```
 
 ## Utilisation
 Une fois l'installation et la configuration terminées, vous pouvez accéder à votre site Fitness-Web depuis votre navigateur en entrant l'adresse correspondante.
